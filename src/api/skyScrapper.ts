@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { AirportOption, FlightItinerary, SearchParams, CalendarData } from '../types';
 
-const apiKey = import.meta.env.VITE_RAPIDAPI_KEY || '3b8233335bmshf51ab048e6927cep1c36ebjsn4c04e1581845';
+const apiKey = import.meta.env.VITE_RAPIDAPI_KEY || '820bdb01a9msh2209c4d1d67d15cp192817jsna857d3afbe11'; // Replace with your actual API key
 
 const apiClient = axios.create({
   baseURL: 'https://sky-scrapper.p.rapidapi.com/api/v1',
